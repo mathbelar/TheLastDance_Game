@@ -4,6 +4,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 15f;
     public int damage = 10;
+    public GameObject bloodParticlePrefab;
     private Rigidbody2D rb;
 
     void Start()
@@ -18,9 +19,30 @@ public class Bullet : MonoBehaviour
         Enemy enemy = col.GetComponent<Enemy>();
         if (enemy != null)
         {
+            if (bloodParticlePrefab != null)
+            {
+                GameObject blood = Instantiate(bloodParticlePrefab, transform.position, Quaternion.identity);
+                blood.transform.parent = null;
+            }
+
             enemy.TakeDamage(damage);
             Destroy(gameObject);
-            return;
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D col)
+    {
+        Enemy enemy = col.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            if (bloodParticlePrefab != null)
+            {
+                GameObject blood = Instantiate(bloodParticlePrefab, transform.position, Quaternion.identity);
+                blood.transform.parent = null;
+            }
+
+            enemy.TakeDamage(damage);
+            Destroy(gameObject);
         }
     }
 

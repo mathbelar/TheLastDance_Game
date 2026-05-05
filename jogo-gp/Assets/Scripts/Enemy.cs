@@ -52,7 +52,10 @@ public class Enemy : MonoBehaviour
         hp -= amount;
 
         if (bloodParticlePrefab != null)
-            Instantiate(bloodParticlePrefab, transform.position, Quaternion.identity);
+        {
+            GameObject blood = Instantiate(bloodParticlePrefab, transform.position, Quaternion.identity);
+            blood.transform.parent = null; 
+        }
 
         if (hp <= 0)
         {
@@ -60,7 +63,7 @@ public class Enemy : MonoBehaviour
             if (hud != null)
                 hud.AddMoney(10);
 
-            Destroy(gameObject);
+            Destroy(gameObject, 0.05f); 
         }
     }
 }

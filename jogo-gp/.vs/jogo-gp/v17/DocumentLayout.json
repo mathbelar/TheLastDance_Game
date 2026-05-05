@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|c:\\jogos\\projeto-grupo\\thelastdance_game\\jogo-gp\\assets\\scripts\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|c:\\jogos\\projeto-grupo\\thelastdance_game\\jogo-gp\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeraim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -94,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T14:51:35.595Z",
               "EditorCaption": ""
@@ -119,13 +119,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
               "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Bullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T14:36:46.104Z",
               "EditorCaption": ""
@@ -140,8 +140,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerAim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T14:33:10.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T14:33:10.012Z"
             }
           ]
         }
