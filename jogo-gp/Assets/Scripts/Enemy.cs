@@ -5,11 +5,19 @@ public class Enemy : MonoBehaviour
     public float speed = 2f;
     public int damage = 10;
     public int hp = 30;
-    public float attackRate = 1f; 
+    public float attackRate = 1f;
+    public GameObject bloodParticlePrefab; 
 
     private bool reachedBarrier = false;
     private Barrier barrier;
     private float nextAttackTime = 0f;
+    private Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        animator.SetBool("isWalking", true);
+    }
 
     void Update()
     {
@@ -33,12 +41,19 @@ public class Enemy : MonoBehaviour
         {
             reachedBarrier = true;
             barrier = col.gameObject.GetComponent<Barrier>();
+
+            if (animator != null)
+                animator.SetBool("isWalking", false);
         }
     }
 
     public void TakeDamage(int amount)
     {
         hp -= amount;
+
+        if (bloodParticlePrefab != null)
+            Instantiate(bloodParticlePrefab, transform.position, Quaternion.identity);
+
         if (hp <= 0)
         {
             HUDManager hud = FindObjectOfType<HUDManager>();

@@ -15,12 +15,12 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        // Acertou um inimigo?
         Enemy enemy = col.GetComponent<Enemy>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
             Destroy(gameObject);
+            return;
         }
     }
 

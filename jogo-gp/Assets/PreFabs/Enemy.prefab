@@ -184,6 +184,7 @@ MonoBehaviour:
   damage: 10
   hp: 30
   attackRate: 1
+  bloodParticlePrefab: {fileID: 8216275941705451269, guid: d06713c1cf8f2e040adf7b187f19bfda, type: 3}
 --- !u!95 &183519106823016935
 Animator:
   serializedVersion: 7
