@@ -32,7 +32,7 @@ SceneManager.LoadScene: https://docs.unity3d.com/ScriptReference/SceneManagement
 Time.timeScale: https://docs.unity3d.com/ScriptReference/Time-timeScale.html
 MonoBehaviour.InvokeRepeating: https://docs.unity3d.com/ScriptReference/MonoBehaviour.InvokeRepeating.html
 Post Processing URP: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.0/manual/post-processing-overview.html
-Auxílio de ferramentas de IA generativa, especialmente Claude, da Anthropic.
+Auxílio de ferramentas de IA generativa.
 Animações:
 Zombie Sprite Sheet: https://caz-bee.itch.io/zombie
 Imagens:
