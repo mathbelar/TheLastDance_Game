@@ -22,3 +22,21 @@ eliminando inimigos e protegendo a barreira.
 - HUD com vida da barreira e dinheiro
 - Tela de Game Over com botão de restart
 - Pós processamento (bloom, vignette, color adjustments)
+
+## REFERÊNCIAS:
+Código:
+Camera.ScreenToWorldPoint: https://docs.unity3d.com/ScriptReference/Camera.ScreenToWorldPoint.html
+Input System, Mouse: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/api/UnityEngine.InputSystem.Mouse.html
+Rigidbody2D: https://docs.unity3d.com/ScriptReference/Rigidbody2D.html
+SceneManager.LoadScene: https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadScene.html
+Time.timeScale: https://docs.unity3d.com/ScriptReference/Time-timeScale.html
+MonoBehaviour.InvokeRepeating: https://docs.unity3d.com/ScriptReference/MonoBehaviour.InvokeRepeating.html
+Post Processing URP: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.0/manual/post-processing-overview.html
+Auxílio de ferramentas de IA generativa, especialmente Claude, da Anthropic.
+Animações:
+Zombie Sprite Sheet: https://caz-bee.itch.io/zombie
+Imagens:
+Soldier PNG: https://www.hiclipart.com/free-transparent-background-png-clipart-hhyfp
+Top Down Tiles, Pixel Art: https://www.slynyrd.com/blog/2019/8/27/pixelblog-20-top-down-tiles
+Músicas:
+(nenhuma adicionada ainda)
