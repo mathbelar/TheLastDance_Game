@@ -19,7 +19,7 @@ public class Barrier : MonoBehaviour
         if (currentHP <= 0)
         {
             currentHP = 0;  
-            GameManager.Instance.TriggerGameOver();
+            GameController.Instance.TriggerGameOver();
         }
     }
 }

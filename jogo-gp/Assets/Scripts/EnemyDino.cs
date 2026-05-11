@@ -1,23 +1,16 @@
-ï»¿using UnityEngine;
+using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class EnemyDino : MonoBehaviour
 {
-    public float speed = 2f;
-    public int damage = 10;
-    public int hp = 30;
-    public float attackRate = 1f;
-    public GameObject bloodParticlePrefab; 
+    public float speed = 3.5f;      // mais rápido que zumbi normal
+    public int damage = 25;         // mais forte
+    public int hp = 80;             // mais vida
+    public float attackRate = 0.8f;
+    public GameObject bloodParticlePrefab;
 
     private bool reachedBarrier = false;
     private Barrier barrier;
     private float nextAttackTime = 0f;
-    private Animator animator;
-
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-        animator.SetBool("isWalking", true);
-    }
 
     void Update()
     {
@@ -41,9 +34,6 @@ public class Enemy : MonoBehaviour
         {
             reachedBarrier = true;
             barrier = col.gameObject.GetComponent<Barrier>();
-
-            if (animator != null)
-                animator.SetBool("isWalking", false);
         }
     }
 
@@ -61,7 +51,7 @@ public class Enemy : MonoBehaviour
         {
             HUDManager hud = FindObjectOfType<HUDManager>();
             if (hud != null)
-                hud.AddMoney(10);
+                hud.AddMoney(25); // dropta mais dinheiro
 
             if (WaveManager.Instance != null)
                 WaveManager.Instance.OnEnemyDied();
