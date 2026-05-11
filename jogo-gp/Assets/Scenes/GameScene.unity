@@ -4094,7 +4094,7 @@ MonoBehaviour:
   weaponText: {fileID: 428989618}
   waveHUDText: {fileID: 1851418078}
   barrier: {fileID: 813305203}
-  money: 0
+  money: 1000000
 --- !u!114 &1449107149
 MonoBehaviour:
   m_ObjectHideFlags: 0
