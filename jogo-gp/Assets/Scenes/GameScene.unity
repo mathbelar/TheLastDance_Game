@@ -4707,11 +4707,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   enemyPrefab: {fileID: 3126097971941313389, guid: a438f24bec7693840bfdf472dd8918e9, type: 3}
   dinoPrefab: {fileID: 7634900312834561181, guid: 116105a7fad257049b2524cee4bcc166, type: 3}
+  strongEnemyPrefab: {fileID: 2603722636191140826, guid: 232c0ee24a351cb459a46418b334a5f4, type: 3}
   spawnX: 10
   spawnYMin: -3.5
   spawnYMax: 0.5
   timeBetweenSpawns: 1.5
   dinoStartWave: 3
+  strongEnemyStartWave: 1
 --- !u!1 &1837643234
 GameObject:
   m_ObjectHideFlags: 0
