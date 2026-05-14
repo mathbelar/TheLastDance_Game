@@ -443,8 +443,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3952594117069198102, guid: 531436c2068b93948acaaf46e7aa0e42, type: 3}
-  m_Color: {r: 0.3333333, g: 0.4196079, b: 0.79607844, a: 1}
+  m_Sprite: {fileID: -3261534315925409631, guid: 83316c8b85319cc458558697d9171178, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -462,8 +462,8 @@ Transform:
   m_GameObject: {fileID: 98721715}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 12, y: 6.2, z: 1}
+  m_LocalPosition: {x: 0.15, y: -2.49, z: 0}
+  m_LocalScale: {x: 0.6036691, y: 0.3914275, z: 0.046508275}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4094,7 +4094,7 @@ MonoBehaviour:
   weaponText: {fileID: 428989618}
   waveHUDText: {fileID: 1851418078}
   barrier: {fileID: 813305203}
-  money: 1000000
+  money: 19999999
 --- !u!114 &1449107149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4713,7 +4713,7 @@ MonoBehaviour:
   spawnYMax: 0.5
   timeBetweenSpawns: 1.5
   dinoStartWave: 3
-  strongEnemyStartWave: 1
+  strongEnemyStartWave: 5
 --- !u!1 &1837643234
 GameObject:
   m_ObjectHideFlags: 0
@@ -5328,7 +5328,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1895006837595075788, guid: 86e68aca537ece84e9997de99eaeb9b9, type: 3}
+  m_Sprite: {fileID: 7285104100621103090, guid: 06d31f3075cd905438e84bdf03590296, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5347,8 +5347,8 @@ Transform:
   m_GameObject: {fileID: 1929122548}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.22801, y: 1, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.3, z: 1}
+  m_LocalPosition: {x: -0.0753, y: 1.5752, z: 0}
+  m_LocalScale: {x: 0.6040226, y: 0.41261646, z: 0.2427256}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

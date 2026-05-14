@@ -13,7 +13,7 @@ public class WaveManager : MonoBehaviour
     public float spawnYMax = 0.5f;
     public float timeBetweenSpawns = 1.5f;
     public int dinoStartWave = 3;      // dino começa na wave 3
-    public int strongEnemyStartWave = 4;
+    public int strongEnemyStartWave = 5;
 
     private int currentWave = 0;
     private int enemiesAlive = 0;

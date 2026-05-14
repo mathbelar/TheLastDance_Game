@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6978938156191172631}
   - component: {fileID: 2360501009232051728}
   - component: {fileID: 7100961832430051868}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ZumbiFortinho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6019453725058403666, guid: d2d4568ccbe7cd645b6bc6512c927daf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

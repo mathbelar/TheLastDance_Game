@@ -43,7 +43,6 @@ public class Ally : MonoBehaviour
                 allyPiercing = false;
                 allyExplosive = false;
                 allyExplosionRadius = 0f;
-                GetComponent<SpriteRenderer>().color = new Color(0.9f, 0.6f, 0.1f);
                 break;
 
             case AllyType.MachineGun:
@@ -55,7 +54,6 @@ public class Ally : MonoBehaviour
                 allyPiercing = false;
                 allyExplosive = false;
                 allyExplosionRadius = 0f;
-                GetComponent<SpriteRenderer>().color = new Color(0.1f, 0.8f, 0.1f);
                 break;
 
             case AllyType.Sniper:
@@ -67,7 +65,6 @@ public class Ally : MonoBehaviour
                 allyPiercing = true;
                 allyExplosive = false;
                 allyExplosionRadius = 0f;
-                GetComponent<SpriteRenderer>().color = new Color(0.1f, 0.4f, 0.9f);
                 break;
 
             case AllyType.RPG:
@@ -79,7 +76,6 @@ public class Ally : MonoBehaviour
                 allyPiercing = false;
                 allyExplosive = true;
                 allyExplosionRadius = 1.5f;
-                GetComponent<SpriteRenderer>().color = new Color(0.9f, 0.1f, 0.1f);
                 break;
         }
     }
