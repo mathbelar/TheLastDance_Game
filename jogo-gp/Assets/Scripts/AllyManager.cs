@@ -11,10 +11,10 @@ public class AllyManager : MonoBehaviour
 
     public Vector3[] allyPositions = new Vector3[]
     {
-        new Vector3(-6.7f, -1.3f, 0f),
-        new Vector3(-6.7f, -2.0f, 0f),
-        new Vector3(-6.7f, -2.7f, 0f),
-        new Vector3(-6.7f, -3.4f, 0f)
+        new Vector3(-6.6f, -1.3f, 0f),
+        new Vector3(-6.6f, -2.0f, 0f),
+        new Vector3(-6.6f, -2.7f, 0f),
+        new Vector3(-6.6f, -3.4f, 0f)
     };
 
     private bool[] slotOccupied = new bool[4];

@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|c:\\jogos\\projeto-grupo\\thelastdance_game\\jogo-gp\\assets\\scripts\\menuzombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\allymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\allymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|c:\\jogos\\projeto-grupo\\thelastdance_game\\jogo-gp\\assets\\scripts\\strongenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\strongenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\menuzombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuzombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|c:\\jogos\\projeto-grupo\\thelastdance_game\\jogo-gp\\assets\\scripts\\enemydino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\enemydino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemydino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ally.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\allymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\allymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\assets\\scripts\\barrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95726815-6999-B183-12C0-60C5540C4E47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\barrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,49 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuZombie.cs",
-              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuZombie.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuZombie.cs",
-              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuZombie.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuZombie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T16:00:20.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CrossHair.cs",
-              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\CrossHair.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CrossHair.cs",
-              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\CrossHair.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CrossHair.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T15:28:01.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuManager.cs",
-              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
-              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwDAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T14:56:22.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EnemyDino.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\EnemyDino.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyDino.cs",
@@ -128,12 +94,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyDino.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T18:38:18.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T18:38:18.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Ally.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Ally.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ally.cs",
@@ -145,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ShopManager.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\ShopManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShopManager.cs",
@@ -157,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "WeaponManager.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\WeaponManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WeaponManager.cs",
@@ -169,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\GameController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
@@ -181,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "WaveManager.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\WaveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WaveManager.cs",
@@ -193,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
@@ -205,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
@@ -217,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerShoot.cs",
@@ -229,7 +194,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "AllyManager.cs",
+              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\AllyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AllyManager.cs",
+              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\AllyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AllyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:16:49.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:56:22.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CrossHair.cs",
+              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\CrossHair.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CrossHair.cs",
+              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\CrossHair.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CrossHair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T15:28:01.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuZombie.cs",
+              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuZombie.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuZombie.cs",
+              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\MenuZombie.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuZombie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T16:00:20.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StrongEnemy.cs",
+              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\StrongEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StrongEnemy.cs",
+              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\StrongEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StrongEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T15:53:57.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HUDManager.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\HUDManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HUDManager.cs",
@@ -241,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Barrier.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Barrier.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Barrier.cs",
@@ -253,19 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AllyManager.cs",
-              "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\AllyManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AllyManager.cs",
-              "ToolTip": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\AllyManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AllyManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:16:49.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -277,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "PlayerAim.cs",
               "DocumentMoniker": "C:\\Jogos\\Projeto-Grupo\\TheLastDance_Game\\jogo-gp\\Assets\\Scripts\\PlayerAim.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAim.cs",
