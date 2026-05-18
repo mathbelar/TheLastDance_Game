@@ -7,6 +7,14 @@ public class PlayerShoot : MonoBehaviour
     public Transform firePoint;
     public GameObject bloodParticlePrefab;
 
+    // Sprite used when the player fires an RPG shot.
+    // Assign rpg-bullet sprite in the Inspector on the Player prefab/object.
+    public Sprite rpgBulletSprite = null;
+
+    // Particle prefab spawned at impact point for RPG shots.
+    // Assign the ExplosionEffect prefab in the Inspector on the Player prefab/object.
+    public GameObject explosionEffectPrefab = null;
+
     private float nextFireTime = 0f;
 
     void Update()
@@ -28,7 +36,7 @@ public class PlayerShoot : MonoBehaviour
         }
         else
         {
-            // Escopeta — spawna varias balas em cone
+            // Escopeta - spawna varias balas em cone
             float halfSpread = weapon.spreadAngle / 2f;
             for (int i = 0; i < weapon.bulletCount; i++)
             {
@@ -51,6 +59,13 @@ public class PlayerShoot : MonoBehaviour
             bullet.explosive = weapon.explosive;
             bullet.explosionRadius = weapon.explosionRadius;
             bullet.bloodParticlePrefab = bloodParticlePrefab;
+
+            // For RPG shots: apply the rpg-bullet sprite and explosion effect.
+            if (weapon.type == WeaponType.RPG)
+            {
+                bullet.overrideSprite = rpgBulletSprite;
+                bullet.explosionEffectPrefab = explosionEffectPrefab;
+            }
         }
     }
 }

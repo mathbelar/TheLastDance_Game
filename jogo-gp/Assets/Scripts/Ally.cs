@@ -15,6 +15,14 @@ public class Ally : MonoBehaviour
     public GameObject allyBloodPrefab;
     public Transform allyFirePoint;
 
+    // Sprite to use for the bullet visual when this ally fires an RPG shot.
+    // Assign rpg-bullet sprite in the Inspector on the AllyRPG prefab.
+    public Sprite rpgBulletSprite = null;
+
+    // Particle prefab spawned at impact point for explosive shots.
+    // Assign the ExplosionEffect prefab in the Inspector on the AllyRPG prefab.
+    public GameObject allyExplosionEffectPrefab = null;
+
     private float nextFireTime = 0f;
     private float allyFireRate;
     private int allyDamage;
@@ -187,6 +195,13 @@ public class Ally : MonoBehaviour
             bullet.explosive = allyExplosive;
             bullet.explosionRadius = allyExplosionRadius;
             bullet.bloodParticlePrefab = allyBloodPrefab;
+
+            // For RPG shots: apply the rpg-bullet sprite and explosion effect.
+            if (allyType == AllyType.RPG)
+            {
+                bullet.overrideSprite = rpgBulletSprite;
+                bullet.explosionEffectPrefab = allyExplosionEffectPrefab;
+            }
         }
     }
 }

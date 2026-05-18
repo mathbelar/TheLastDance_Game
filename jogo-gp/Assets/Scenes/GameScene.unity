@@ -3979,6 +3979,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8305397917717693874, guid: d03249f5cc27d4c429fb882d3e69216b, type: 3}
   firePoint: {fileID: 1974130067}
   bloodParticlePrefab: {fileID: 8216275941705451269, guid: d06713c1cf8f2e040adf7b187f19bfda, type: 3}
+  rpgBulletSprite: {fileID: 0}
+  explosionEffectPrefab: {fileID: 0}
 --- !u!1 &1430156826
 GameObject:
   m_ObjectHideFlags: 0
@@ -4153,7 +4155,7 @@ MonoBehaviour:
   weaponText: {fileID: 428989618}
   waveHUDText: {fileID: 1851418078}
   barrier: {fileID: 813305203}
-  money: 19999999
+  money: 0
 --- !u!114 &1449107149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5598,7 +5600,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4633651821988572479, guid: 114892e749cb5c64db57edf9659cbf92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
