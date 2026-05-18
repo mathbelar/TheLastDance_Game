@@ -489,8 +489,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -34.6226}
+  m_SizeDelta: {x: 0, y: 69.2451}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &292675199
 MonoBehaviour:
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1895006837595075788, guid: 86e68aca537ece84e9997de99eaeb9b9, type: 3}
+  m_Sprite: {fileID: 7042847911465117151, guid: a8ecf808e85943d45b8a44406dc2f9e7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -837,6 +837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a8f96aedb819a4998f9e95701be718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  zombiePrefab: {fileID: 0}
+  spawnInterval: 20
+  spawnX: 11
+  spawnY: -2.5
 --- !u!4 &1259769162
 Transform:
   m_ObjectHideFlags: 0
@@ -1077,6 +1081,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a8f96aedb819a4998f9e95701be718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  zombiePrefab: {fileID: 0}
+  spawnInterval: 20
+  spawnX: 11
+  spawnY: -2.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
